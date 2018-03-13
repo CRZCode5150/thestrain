@@ -1,0 +1,40 @@
+
+#plant{
+    width: 50px;
+    height: 50px;
+    padding-right: 10px;
+}
+
+.circle {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  font-size: 30px;
+  color: white;
+  line-height: 200px;
+  text-align: center;
+  background: #6c757d;
+}
+#cardborder{
+border-bottom: 1px solid;
+}
+
+#paddingrop1{
+    padding-top: 80px;
+    padding-right: 5px;
+}
+
+#moveul{
+    padding-right: 50px;
+}
+
+#foot {
+   
+   left: 0;
+   bottom: 0;
+   height: 30px;
+   width: 100%;
+   background-color: #6c757d;
+   color: white;
+   text-align: center;
+}
