@@ -11,42 +11,33 @@
 
   </head>
   <body>
-      <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+      <nav id="colorchange" class="navbar navbar-expand-lg navbar-dark">
           <img id="plant" src="img/plant.png" />
-    <a class="navbar-brand">TheeStrainSite</a>
+    <a id="colorchange1" class="navbar-brand">TheeSearchStrain</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
-    </button>
+    </button
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link" href="#">About US</a>
-        <a class="nav-item nav-link" href="#">Contact Us</a>
+        <a class="nav-item nav-link active" href="/">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link active" href="#">TheeStrains</a>
+        <a class="nav-item nav-link active" href="#">About US</a>
+        <a class="nav-item nav-link active" href="#">Contact Us</a>
       </div>
     </div>
   </nav>
 
-  <div class="container-fluid">
-      <div class="row">
-          <div class="col">
-          <form class="form-inline">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search Strain</button>
-            </form>
-        </div>
-        </div>
-  </div>
 
-        <div class="container-fluid">
+
+        <div class="container-fluid px-0">
             <div id="main">
               @yield('content')
             </div>
-
         </div>
 
         <footer id="foot">
             <div id="copy" class="copyright">
-                <h7>© 2018 Fortnite </h7>
+                <h7>© 2018 TheeSearchStrain </h7>
             </div>
         </footer>
 

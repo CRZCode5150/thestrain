@@ -1,56 +1,16 @@
-@extends('master')
+@extends('master') @section('content')
 
 
-@section('content')
-
-    <div class="row">
-        <div class=col-4>
-            <div class="circle">Girl Scout Cookies</div>
-        </div>
-
-        <div id="paddingrop1" class="col-4">
-                <ul id="moveul">
-                    <li>Race:</li>
-                    <br>
-                    <li>Flavor:</li>
-                    <br>
-                    <li>Effect:</li4>
-                </ul>
-        </div>
+<div class="row figure justify-content-center">
+    <div class="col-6 search-form text-center">
+        <form action="/get_strains" method="post">
+            @csrf
+            <div class="control-group">
+                <input name="strain" class="form-control mr-sm-2 mb-2" type="search" placeholder="Search Strain" aria-label="Search">
+                <button class="btn btn-outline" type="submit">Search</button>
+            </div>
+        </form>
     </div>
-    <br>
-    <div class="row">
-        <div class=col-4>
-            <div class="circle">Girl Scout Cookies</div>
-        </div>
-        <div id="paddingrop1" class="col-4">
-                <ul id="moveul">
-                    <li>Race:</li>
-                    <br>
-                    <li>Flavor:</li>
-                    <br>
-                    <li>Effect:</li4>
-                </ul>
-        </div>
-    </div>
-    <br>
-    <div class="row">
-        <div class=col-4>
-            <div class="circle">Girl Scout Cookies</div>
-        </div>
-
-        <div id="paddingrop1" class="col-4">
-                <ul id="moveul">
-                    <li>Race:</li>
-                    <br>
-                    <li>Flavor:</li>
-                    <br>
-                    <li>Effect:</li4>
-                </ul>
-        </div>
-    </div>
-
-
-
+</div>
 
 @endsection
