@@ -3,6 +3,7 @@
 
 <div class="row figure justify-content-center">
     <div class="col-6 search-form text-center">
+        <h2 id="heading">Search Your Strain</h2>
         <form action="/get_strains" method="post">
             @csrf
             <div class="control-group">

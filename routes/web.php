@@ -15,6 +15,6 @@ Route::get('/', function () {
     return view('home');
 });
 
-
+Route::get('/letter/{letter}', 'TheStrainController@getLetterStrains');
 
 Route::post('/get_strains', 'TheStrainController@getStrains');

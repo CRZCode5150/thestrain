@@ -7,7 +7,7 @@
 
 .circle {
   width: 300px;
-  height: 300px;
+  height: 3=00px;
   border-radius: 50%;
   font-size: 20px;
   color: white;
@@ -24,9 +24,7 @@ border-bottom: 1px solid;
     padding-right: 5px;
 }
 
-#moveul{
-    padding-right: 50px;
-}
+
 
 #foot {
    left: 0;
@@ -48,7 +46,25 @@ border-bottom: 1px solid;
 
 #colorchange1{
     color: white;
+    font-family: 'Lobster', cursive;
 }
+
+#sidebar{
+    font-size: 12px;
+    border-left: 1px solid;
+}
+
+.borderbottom1{
+    border-bottom: 1px solid;
+    color: green;
+    display: block;
+}
+
+
+.ABC{
+    color: green;
+}
+
 
 *{
     padding: 0;
@@ -88,4 +104,26 @@ button{
 }
 button:hover{
     background: green;
+}
+
+#heading{
+    font-size: 80px;
+    color: white;
+    font-family: 'Lobster', cursive;
+}
+
+#navbarchange{
+    font-family: 'Lobster', cursive;
+}
+
+#moveul{
+    padding-top: 40px;
+}
+
+.borderbottom{
+    border-bottom: 1px solid;
+}
+
+/*.borderbottom{
+    border-bottom: 1px solid;
 }
