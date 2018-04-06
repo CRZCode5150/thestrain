@@ -1,18 +1,24 @@
 @extends('master') @section('content')
 
+
+
 <div id="bottom" class="row">
 
 
     <div id="paddingrop1" class="col-11">
         @if(!empty($strains))
         @foreach($strains as $strain)
-        <div class="borderbottom" class="row runRouteWithinStack">
-            <div class="circle col">{{$strain['name']}}</div>
+        <div class="borderbottom row runRouteWithinStack">
+            <div class="pic col">
+                <div class="circle">{{$strain['name']}}</div>
+            </div>
+
             <div class="col">
                 <ul id="moveul">
-                    <h3>Race: {{$strain['race']}}</h3>
-                    <br>
-                    <p>Description: {{$strain['desc']}}</p>
+                    <h3 class="yo">Race:</h3>
+                    <p>{{$strain['race']}}</p>
+                    <h6 class="yo">Description:</h6>
+                    <p>{{$strain['desc']}}</p>
                 </ul>
             </div>
         </div>

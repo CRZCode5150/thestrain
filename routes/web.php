@@ -15,6 +15,16 @@ Route::get('/', function () {
     return view('home');
 });
 
+Route::get('/aboutus', function () {
+    return view('aboutus');
+});
+
+Route::get('/contact', function () {
+    return view('contactus');
+});
+
+
+
 Route::get('/letter/{letter}', 'TheStrainController@getLetterStrains');
 
 Route::post('/get_strains', 'TheStrainController@getStrains');

@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/mainCSS.css" />
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
   </head>
   <body>
       <nav id="colorchange" class="navbar navbar-expand-lg navbar-dark">
@@ -20,8 +21,8 @@
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div  class="navbar-nav">
         <a id="navbarchange" class="nav-item nav-link active" href="/">Home <span class="sr-only">(current)</span></a>
-        <a id="navbarchange" class="nav-item nav-link active" href="#">About US</a>
-        <a id="navbarchange" class="nav-item nav-link active" href="#">Contact Us</a>
+        <a id="navbarchange" class="nav-item nav-link active" href="/aboutus">About US</a>
+        <a id="navbarchange" class="nav-item nav-link active" href="/contact">Contact Us</a>
       </div>
     </div>
   </nav>
